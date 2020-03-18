@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+<head>
+<title>Convesor Fahrenheit e Celsius</title>
+<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Escolaha uma opção de convesão</h1>
+	<form action="calcular">
+		<input type="text" name="temperatura" value="0.0"/>
+		<select name="select">
+			<option value="F">Fahrenheit</option>
+			<option value="C" selected>Celsius</option>
+			<option value="O">Outro</option>
+		</select> 
+		<input type="submit" name="calcular" />
+	</form>
+</body>
+</html>
